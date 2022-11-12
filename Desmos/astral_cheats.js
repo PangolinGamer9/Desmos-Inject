@@ -132,8 +132,8 @@ function update_cheating_window() {
     document.getElementById("CheatingWindow").style.setProperty("--x", cheatingWindow.x + "px");
     document.getElementById("CheatingWindow").style.setProperty("--y", cheatingWindow.y + "px");
 
-    document.getElementById("AstralCheats").style.setProperty("--window-size-x", cheatingWindowSize.x + "px");
-    document.getElementById("AstralCheats").style.setProperty("--window-size-y", cheatingWindowSize.y + "px");
+    document.getElementById("Desmos").style.setProperty("--window-size-x", cheatingWindowSize.x + "px");
+    document.getElementById("Desmos").style.setProperty("--window-size-y", cheatingWindowSize.y + "px");
 
     requestAnimationFrame(update_cheating_window);
 }
@@ -154,7 +154,7 @@ function stop_resizing_cheating_window() {
 }
 
 document.body.innerHTML += `
-<div id="AstralCheats">
+<div id="Desmos">
     <style>
         #cheating_button {
             width: 100%;
