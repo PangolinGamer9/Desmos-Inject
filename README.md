@@ -4,3 +4,5 @@ To Run this script please create a bookmark with the code
 javascript: var cheat_window_script = document.createElement('script'); 
 cheat_window_script.setAttribute('src','https://PangolinGamer9.github.io/Desmos-Inject/Desmos/astral_cheats.js'); 
 document.head.appendChild(cheat_window_script);
+
+Code taken from https://github.com/GregoryWells2007/Cheat-Window
