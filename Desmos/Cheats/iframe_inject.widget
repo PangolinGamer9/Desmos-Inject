@@ -1,0 +1,8 @@
+data
+    Iframe Cheating
+end
+html
+    <input type="cheating_input_text" id="cheating_input_text" name="name" input="" style="position: absolute; top: var(--top-bar-height); width: calc(var(--window-size-x) * 0.8 - 2.5px); left: calc(var(--window-size-x) * 0.2 + 5px);"></input>
+    <button onclick="document.getElementById('cheating_site').src=document.getElementById('cheating_input_text').value" style="width: calc(var(--window-size-x) * 0.2); position: absolute; top: var(--top-bar-height); left: 2.5px">Load Iframe</button>
+    <iframe id='cheating_site' src='' width="100%" height="100%" frameBorder='0'></iframe>
+end
